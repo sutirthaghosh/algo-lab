@@ -50,8 +50,8 @@ def closestpair(L):
     return best[1]
 
 
-points = map(lambda x: map(int, x.split(",")),
-             iter(lambda: raw_input("Enter X,Y coordinates or Nothing to continue : ").strip(), ""))
-
+#points = map(lambda x: map(int, x.split(",")),
+#             iter(lambda: raw_input("Enter X,Y coordinates or Nothing to continue : ").strip(), ""))
+points = [(0,0),(7,6),(2,20),(12,5),(16,16),(5,8),(19,7),(14,22),(8,19),(7,29),(10,11),(1,13)]
 print(points)
 print(closestpair(points))
